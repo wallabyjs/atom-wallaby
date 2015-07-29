@@ -1,0 +1,25 @@
+{
+  "name": "wallaby",
+  "main": "./lib/wallaby",
+  "version": "1.0.0",
+  "description": "Wallaby.js Atom package",
+  "keywords": [
+    "wallaby.js",
+    "TDD",
+    "BDD",
+    "testing",
+    "code coverage",
+    "ES6",
+    "ES7",
+    "JavaScript",
+    "CoffeeScript",
+    "TypeScript"
+  ],
+  "repository": "https://github.com/atom/atom-wallaby",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

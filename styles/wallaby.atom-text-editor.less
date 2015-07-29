@@ -1,0 +1,40 @@
+@import "wallaby-vars";
+
+.atom-text-editor, :host {
+
+  .wallaby-cov {
+    width: 10px;
+    height: 10px !important;
+    border-radius: 2px;
+    position: absolute;
+    vertical-align: middle;
+    top: 50%;
+    left: 30%;
+    margin-top: 33%;
+  }
+
+  .wallaby-cov-1 {
+    .wallaby-cov;
+    background-color: @notCovered;
+  }
+
+  .wallaby-cov-2 {
+    .wallaby-cov;
+    background-color: @fullyCovered;
+  }
+
+  .wallaby-cov-3 {
+    .wallaby-cov;
+    background-color: @partiallyCovered;
+  }
+
+  .wallaby-cov-4 {
+    .wallaby-cov;
+    background-color: @errorSource;
+  }
+
+  .wallaby-cov-5 {
+    .wallaby-cov;
+    background-color: @errorPath;
+  }
+}
