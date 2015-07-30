@@ -1,2 +1,2 @@
 'atom-workspace':
-  'ctrl-alt-o': 'wallaby:toggle'
+  'cmd-shift-t': 'wallaby:panel'

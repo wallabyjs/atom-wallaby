@@ -1,2 +1,35 @@
 @import "ui-variables";
 
+.wallaby-panel-view {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  cursor: default;
+  -webkit-user-select: none;
+  min-height: 50px;
+  height: 200px;
+  z-index: 2;
+
+  .wallaby-panel-view-resizer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 10px;
+    cursor: row-resize;
+    z-index: 3;
+  }
+
+  .wallaby-panel-view-content {
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+  }
+}
+
+.platform-win32 {
+  .wallaby-panel-view {
+    .wallaby-panel-view-resizer {
+      cursor: ns-resize;
+    }
+  }
+}
