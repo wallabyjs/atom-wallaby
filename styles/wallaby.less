@@ -1,4 +1,5 @@
 @import "ui-variables";
+@import "wallaby-vars";
 
 .wallaby-panel-view {
   position: relative;
@@ -19,10 +20,58 @@
     z-index: 3;
   }
 
-  .wallaby-panel-view-content {
+  .wallaby-panel-view-container {
+    padding: @component-padding / 2;
     height: 100%;
     width: 100%;
-    overflow: auto;
+    display: flex;
+    flex-direction: column;
+
+    .wallaby-panel-view-header {
+      padding: @component-padding/4 @component-padding/2;
+      .header-item {
+        margin: @component-padding/4 0;
+      }
+
+      .icons {
+        padding-left: @component-padding/2;
+
+        .icon-playback-play {
+          color: @fullyCovered;
+        }
+        .icon-playback-play:hover {
+          color: green;
+        }
+
+        .icon-primitive-square {
+          color: @errorSource
+        }
+        .icon-primitive-square:hover {
+          color: red;
+        }
+      }
+    }
+
+    .wallaby-panel-view-content {
+      flex: 1;
+      display: flex;
+      flex-direction: row;
+      font-size: @font-size;
+
+      .wallaby-panel-view-failing-tests {
+        overflow: auto;
+        padding: @component-padding/4 @component-padding/2;
+        padding-right: @component-padding;
+        flex: 1;
+      }
+
+      .wallaby-panel-view-console {
+        overflow: auto;
+        padding: @component-padding/4 @component-padding/2;
+        padding-right: @component-padding;
+        flex: 1;
+      }
+    }
   }
 }
 

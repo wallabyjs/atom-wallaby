@@ -1,2 +1,4 @@
 'atom-workspace':
-  'cmd-shift-t': 'wallaby:panel'
+  'cmd-shift-t o': 'wallaby:panel'
+  'cmd-shift-t r': 'wallaby:start'
+  'cmd-shift-t s': 'wallaby:stop'
