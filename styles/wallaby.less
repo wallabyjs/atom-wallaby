@@ -33,8 +33,17 @@
         margin: @component-padding/4 0;
       }
 
+      .subtle-info-message {
+        color: @text-color-subtle;
+      }
+
       .icons {
         padding-left: @component-padding/2;
+
+        .inactive, .inactive:hover {
+          color: @text-color !important;
+          cursor: default;
+        }
 
         .icon-playback-play {
           color: @fullyCovered;
