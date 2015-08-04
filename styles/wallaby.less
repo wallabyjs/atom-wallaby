@@ -1,6 +1,61 @@
 @import "ui-variables";
 @import "wallaby-vars";
 
+.wallaby-status {
+  display: inline-block;
+  margin-left: @component-padding;
+  vertical-align: middle;
+  width: 16px;
+  height: 16px;
+
+  &.passing {
+    background-image: url("atom://atom-wallaby/styles/wallaby.png");
+  }
+
+  &.failing {
+    background-image: url("atom://atom-wallaby/styles/wallaby_red.png");
+  }
+
+  &.progress {
+    position: relative;
+    width: 0;
+    padding: 8px;
+    background: linear-gradient(@text-color 30%, transparent 30%, transparent 70%, fade(@text-color, 40%) 70%),
+    linear-gradient(to left, fade(@text-color, 20%) 30%, transparent 30%, transparent 70%, fade(@text-color, 80%) 70%);
+    background-repeat: no-repeat;
+    background-size: 10% 100%, 100% 10%;
+    background-position: 50% 0%, 0 50%;
+    -webkit-animation: loading .7s infinite steps(8);
+  }
+
+  &.progress:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(fade(@text-color, 10%) 30%, transparent 30%, transparent 70%, fade(@text-color, 50%) 70%),
+    linear-gradient(to left, fade(@text-color, 30%) 30%, transparent 30%, transparent 70%, fade(@text-color, 90%) 70%);
+    background-repeat: no-repeat;
+    background-size: 10% 100%, 100% 10%;
+    background-position: 50% 0%, 0 50%;
+    -webkit-transform: rotate(45deg);
+  }
+}
+
+@-webkit-keyframes loading {
+  100% {
+    -webkit-transform: rotate(1turn);
+  }
+}
+
+@keyframes loading {
+  100% {
+    transform: rotate(1turn);
+  }
+}
+
 .wallaby-panel-view {
   position: relative;
   width: 100%;
@@ -35,6 +90,7 @@
 
       .subtle-info-message {
         color: @text-color-subtle;
+        padding-left: @component-padding * 2;
       }
 
       .icons {
