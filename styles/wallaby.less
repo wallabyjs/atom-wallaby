@@ -61,8 +61,6 @@
   position: relative;
   width: 100%;
   overflow: hidden;
-  cursor: default;
-  -webkit-user-select: none;
   min-height: 50px;
   height: 200px;
   z-index: 2;
@@ -84,6 +82,8 @@
     flex-direction: column;
 
     .wallaby-panel-view-header {
+      cursor: default;
+      -webkit-user-select: none;
       padding: @component-padding/4 @component-padding/2;
       .header-item {
         margin: @component-padding/4 0;
