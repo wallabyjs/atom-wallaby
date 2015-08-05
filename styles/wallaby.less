@@ -134,8 +134,51 @@
         padding-right: @component-padding;
         flex: 1;
 
-        .error {
+        a {
+          &.loc {
+            color: @text-color-info;
+            &:hover {
+              color: @text-color-info;
+            }
+          }
+
+          &.text {
+            text-decoration: none;
+          }
+        }
+
+        .error > .header {
           color: @text-color-error;
+        }
+
+        .message > .line {
+          display: inline;
+          margin-left: 0;
+          margin-top: 0;
+        }
+
+        .test > .error, .console, .line, .console > .message {
+          margin-left: @component-padding * 3;
+          margin-top: @component-padding;
+        }
+
+        .test {
+          margin-bottom: @component-padding * 3;
+
+          &.failing {
+            > .header {
+              color: @text-color-error;
+            }
+          }
+
+          .name {
+            font-weight: bold;
+          }
+
+          .time {
+            color: @text-color-subtle;
+            padding-left: @component-padding;
+          }
         }
       }
     }
