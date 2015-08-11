@@ -2,3 +2,6 @@
   'cmd-shift-t o': 'wallaby:panel'
   'cmd-shift-t r': 'wallaby:start'
   'cmd-shift-t s': 'wallaby:stop'
+
+'atom-text-editor':
+  'cmd-shift-space': 'wallaby:editor-context-menu'

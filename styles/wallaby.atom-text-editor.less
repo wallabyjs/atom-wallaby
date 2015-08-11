@@ -2,6 +2,15 @@
 
 .atom-text-editor, :host {
 
+  .line {
+    &.wlc::after {
+      color: @text-color-subtle;
+    }
+    &.wle::after {
+      color: @text-color-error;
+    }
+  }
+
   .wallaby-cov {
     width: 10px;
     height: 10px !important;
