@@ -6,21 +6,23 @@
   display: inline-block;
   margin-left: @component-padding;
   vertical-align: middle;
-  width: 16px;
-  height: 16px;
+  width: 14px;
+  height: 14px;
 
   &.passing {
-    background-image: url("atom://atom-wallaby/styles/wallaby.png");
+    background-color: @green;
+    -webkit-mask-image: url("atom://atom-wallaby/styles/wallaby.svg");
   }
 
   &.failing {
-    background-image: url("atom://atom-wallaby/styles/wallaby_red.png");
+    background-color: @red;
+    -webkit-mask-image: url("atom://atom-wallaby/styles/wallaby.svg");
   }
 
   &.progress {
     position: relative;
     width: 0;
-    padding: 8px;
+    padding: 7px;
     background: linear-gradient(@text-color 30%, transparent 30%, transparent 70%, fade(@text-color, 40%) 70%),
     linear-gradient(to left, fade(@text-color, 20%) 30%, transparent 30%, transparent 70%, fade(@text-color, 80%) 70%);
     background-repeat: no-repeat;
