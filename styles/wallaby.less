@@ -99,27 +99,32 @@
       .icons {
         padding-left: @component-padding/2;
 
-        a {
+        .btn {
           outline: 0 !important;
+        }
+
+        .icon {
+          &:before {
+            font-size: 14px;
+          }
         }
 
         .inactive, .inactive:hover {
           color: @text-color !important;
           cursor: default;
+          background: inherit;
         }
 
         .icon-playback-play {
-          color: @fullyCovered;
-        }
-        .icon-playback-play:hover {
-          color: green;
+          color: @text-color-success;
         }
 
         .icon-primitive-square {
-          color: @errorSource
+          color: @text-color-error;
         }
-        .icon-primitive-square:hover {
-          color: red;
+
+        .icon-x {
+          color: @text-color-info;
         }
       }
     }
