@@ -1,5 +1,9 @@
 'atom-workspace':
   'cmd-shift-space': 'wallaby:show-command-palette'
-  'cmd-shift-t o': 'wallaby:toggle-panel'
+  'cmd-shift-t t': 'wallaby:toggle-panel'
+  'ctrl-1': 'wallaby:focus-panel'
   'cmd-shift-t r': 'wallaby:start'
   'cmd-shift-t s': 'wallaby:stop'
+
+'.wallaby-panel-view-failing-tests':
+  'escape': 'tool-panel:unfocus'
