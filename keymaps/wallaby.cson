@@ -4,6 +4,11 @@
   'ctrl-1': 'wallaby:focus-panel'
   'cmd-shift-t r': 'wallaby:start'
   'cmd-shift-t s': 'wallaby:stop'
+  'cmd-shift-t p': 'wallaby:run-project-tests'
+
+'atom-text-editor':
+  'cmd-shift-t l': 'wallaby:run-line-tests'
+  'cmd-shift-t f': 'wallaby:run-file-tests'
 
 '.wallaby-panel-view-failing-tests':
   'escape': 'tool-panel:unfocus'
