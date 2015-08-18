@@ -5,12 +5,15 @@
   'cmd-shift-t r': 'wallaby:start'
   'cmd-shift-t s': 'wallaby:stop'
   'cmd-shift-t p': 'wallaby:run-project-tests'
+  'cmd-shift-t h': 'wallaby:show-last-screenshot'
 
 'atom-text-editor':
   'cmd-shift-t l': 'wallaby:run-line-tests'
   'cmd-shift-t f': 'wallaby:run-file-tests'
   'cmd-shift-t o': 'wallaby:jump-to-failing-test'
   'cmd-shift-t p': 'wallaby:jump-to-error-source'
+  'cmd-shift-t u': 'wallaby:show-uncovered-regions'
+  'cmd-shift-t l': 'wallaby:show-line-tests'
 
 '.wallaby-panel-view-failing-tests':
   'escape': 'tool-panel:unfocus'
