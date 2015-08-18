@@ -9,6 +9,8 @@
 'atom-text-editor':
   'cmd-shift-t l': 'wallaby:run-line-tests'
   'cmd-shift-t f': 'wallaby:run-file-tests'
+  'cmd-shift-t o': 'wallaby:jump-to-failing-test'
+  'cmd-shift-t p': 'wallaby:jump-to-error-source'
 
 '.wallaby-panel-view-failing-tests':
   'escape': 'tool-panel:unfocus'
