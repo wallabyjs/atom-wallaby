@@ -33,5 +33,5 @@
 'atom-workspace':
   'ctrl-1': 'wallaby:focus-panel'
 
-'.wallaby-panel-view-failing-tests':
+'.wallaby-tests-view':
   'escape': 'tool-panel:unfocus'

@@ -134,65 +134,65 @@
       display: flex;
       flex-direction: row;
       font-size: @font-size;
+    }
+  }
+}
 
-      .wallaby-panel-view-failing-tests {
-        overflow: auto;
-        padding: @component-padding/4 @component-padding/2;
-        padding-right: @component-padding;
-        flex: 1;
+.wallaby-tests-view {
+  overflow: auto;
+  padding: @component-padding/4 @component-padding/2;
+  padding-right: @component-padding;
+  flex: 1;
 
-        > .error {
-          margin-bottom: @component-padding * 2;
-        }
+  > .error {
+    margin-bottom: @component-padding * 2;
+  }
 
-        a {
-          &.loc {
-            color: @text-color-info;
-            &:hover {
-              color: @text-color-info;
-            }
-          }
-
-          &.text {
-            text-decoration: none;
-            cursor: text;
-          }
-        }
-
-        .error > .header {
-          color: @text-color-error;
-        }
-
-        .message > .line {
-          display: inline;
-          margin-left: 0;
-          margin-top: 0;
-        }
-
-        .test > .error, .console, .line, .console > .message {
-          margin-left: @component-padding * 3;
-          margin-top: @component-padding;
-        }
-
-        .test {
-          margin-bottom: @component-padding * 3;
-
-          &.failing {
-            > .header {
-              color: @text-color-error;
-            }
-          }
-
-          .name {
-            font-weight: bold;
-          }
-
-          .time {
-            color: @text-color-subtle;
-            padding-left: @component-padding;
-          }
-        }
+  a {
+    &.loc {
+      color: @text-color-info;
+      &:hover {
+        color: @text-color-info;
       }
+    }
+
+    &.text {
+      text-decoration: none;
+      cursor: text;
+    }
+  }
+
+  .error > .header {
+    color: @text-color-error;
+  }
+
+  .message > .line {
+    display: inline;
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  .test > .error, .console, .line, .console > .message {
+    margin-left: @component-padding * 3;
+    margin-top: @component-padding;
+  }
+
+  .test {
+    margin-bottom: @component-padding * 3;
+
+    &.failing {
+      > .header {
+        color: @text-color-error;
+      }
+    }
+
+    .name {
+      font-weight: bold;
+    }
+
+    .time {
+      color: @text-color-subtle;
+      padding-left: @component-padding;
     }
   }
 }
