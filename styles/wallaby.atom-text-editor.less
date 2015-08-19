@@ -12,14 +12,11 @@
   }
 
   .wallaby-cov {
-    width: 9px;
-    height: 9px !important;
+    width: 0.7em;
+    height: 0.7em !important;
     border-radius: 2px;
-    position: absolute;
-    vertical-align: middle;
-    top: 50%;
-    left: 30%;
-    margin-top: 33%;
+    left: 0.15em;
+    margin-top: 0.3em;
   }
 
   .wallaby-cov-1 {
@@ -48,8 +45,8 @@
   }
 
   .highlight {
-    &.uncovered .region{
-      background-color: @errorPath;
+    &.uncovered .region {
+      border: @errorSource 1px solid;
     }
   }
 }
