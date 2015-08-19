@@ -1,19 +1,37 @@
-'atom-workspace':
+'.platform-darwin atom-workspace':
   'cmd-shift-space': 'wallaby:show-command-palette'
   'cmd-shift-t t': 'wallaby:toggle-panel'
-  'ctrl-1': 'wallaby:focus-panel'
   'cmd-shift-t r': 'wallaby:start'
   'cmd-shift-t s': 'wallaby:stop'
   'cmd-shift-t p': 'wallaby:run-project-tests'
   'cmd-shift-t h': 'wallaby:show-last-screenshot'
 
-'atom-text-editor':
+'.platform-darwin atom-text-editor':
   'cmd-shift-t l': 'wallaby:run-line-tests'
   'cmd-shift-t f': 'wallaby:run-file-tests'
   'cmd-shift-t o': 'wallaby:jump-to-failing-test'
   'cmd-shift-t p': 'wallaby:jump-to-error-source'
   'cmd-shift-t u': 'wallaby:toggle-uncovered-regions'
   'cmd-shift-t l': 'wallaby:show-line-tests'
+
+'.platform-win32 atom-workspace, .platform-linux atom-workspace':
+  'ctrl-shift-space': 'wallaby:show-command-palette'
+  'ctrl-shift-t t': 'wallaby:toggle-panel'
+  'ctrl-shift-t r': 'wallaby:start'
+  'ctrl-shift-t s': 'wallaby:stop'
+  'ctrl-shift-t p': 'wallaby:run-project-tests'
+  'ctrl-shift-t h': 'wallaby:show-last-screenshot'
+
+'.platform-win32 atom-text-editor, .platform-linux atom-text-editor':
+  'ctrl-shift-t l': 'wallaby:run-line-tests'
+  'ctrl-shift-t f': 'wallaby:run-file-tests'
+  'ctrl-shift-t o': 'wallaby:jump-to-failing-test'
+  'ctrl-shift-t p': 'wallaby:jump-to-error-source'
+  'ctrl-shift-t u': 'wallaby:toggle-uncovered-regions'
+  'ctrl-shift-t l': 'wallaby:show-line-tests'
+
+'atom-workspace':
+  'ctrl-1': 'wallaby:focus-panel'
 
 '.wallaby-panel-view-failing-tests':
   'escape': 'tool-panel:unfocus'
