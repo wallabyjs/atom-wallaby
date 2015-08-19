@@ -46,4 +46,10 @@
     .wallaby-cov;
     background-color: @errorPath;
   }
+
+  .highlight {
+    &.uncovered .region{
+      background-color: @errorPath;
+    }
+  }
 }

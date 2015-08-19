@@ -12,7 +12,7 @@
   'cmd-shift-t f': 'wallaby:run-file-tests'
   'cmd-shift-t o': 'wallaby:jump-to-failing-test'
   'cmd-shift-t p': 'wallaby:jump-to-error-source'
-  'cmd-shift-t u': 'wallaby:show-uncovered-regions'
+  'cmd-shift-t u': 'wallaby:toggle-uncovered-regions'
   'cmd-shift-t l': 'wallaby:show-line-tests'
 
 '.wallaby-panel-view-failing-tests':
