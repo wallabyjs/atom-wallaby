@@ -2,6 +2,6 @@
   'atom-workspace atom-text-editor:not(.mini)': [
     {label: 'Select as wallaby.js config', command: 'wallaby:select-config-from-editor'}
   ]
-  '.tree-view .file > .name': [
+  '.tree-view .file': [
     {label: 'Select as wallaby.js config', command: 'wallaby:select-config-from-tree'}
   ]
