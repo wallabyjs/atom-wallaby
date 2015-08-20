@@ -7,7 +7,7 @@
   'cmd-shift-t h': 'wallaby:show-last-screenshot'
 
 '.platform-darwin atom-text-editor':
-  'cmd-shift-t l': 'wallaby:run-line-tests'
+  'cmd-shift-t c': 'wallaby:run-line-tests'
   'cmd-shift-t f': 'wallaby:run-file-tests'
   'cmd-shift-t o': 'wallaby:jump-to-failing-test'
   'cmd-shift-t p': 'wallaby:jump-to-error-source'
@@ -23,7 +23,7 @@
   'ctrl-shift-t h': 'wallaby:show-last-screenshot'
 
 '.platform-win32 atom-text-editor, .platform-linux atom-text-editor':
-  'ctrl-shift-t l': 'wallaby:run-line-tests'
+  'ctrl-shift-t c': 'wallaby:run-line-tests'
   'ctrl-shift-t f': 'wallaby:run-file-tests'
   'ctrl-shift-t o': 'wallaby:jump-to-failing-test'
   'ctrl-shift-t p': 'wallaby:jump-to-error-source'
