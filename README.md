@@ -1,7 +1,7 @@
 # [Wallaby.js](http://wallabyjs.com) Atom package beta
 
 ## Documentation
-Documentation lives at [http://wallabyjs.com/docs/](http://wallabyjs.com/docs/).
+Documentation lives at [http://wallabyjs.com/docs/](http://wallabyjs.com/docs/intro/get-started-atom.html).
 
 Main repository for issues/questions lives at [https://github.com/wallabyjs/public](https://github.com/wallabyjs/public).
 
