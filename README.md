@@ -1,4 +1,4 @@
-# [Wallaby.js](http://wallabyjs.com) Atom package beta
+# [Wallaby.js](http://wallabyjs.com) Atom package
 
 ## Documentation
 Documentation lives at [http://wallabyjs.com/docs/](http://wallabyjs.com/docs/intro/get-started-atom.html).
