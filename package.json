@@ -24,7 +24,7 @@
     "adm-zip-mit": "^0.4.8",
     "atom-space-pen-views": "^2.0.5",
     "fs-extra": "^0.22.1",
-    "phantomjs": "^1.9.18",
+    "phantomjs-prebuilt": "^2.1.12",
     "q": "^1.4.1",
     "request": "^2.61.0"
   },
