@@ -4,5 +4,6 @@ node_modules
 .idea
 projects
 wallaby.json
+update.lock
 wallaby
 wallaby-atom
