@@ -21,7 +21,7 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "adm-zip-mit": "^0.4.8",
+    "adm-zip-mit": "^0.4.11",
     "atom-space-pen-views": "^2.0.5",
     "fs-extra": "^0.22.1",
     "lockfile": "^1.0.3",
