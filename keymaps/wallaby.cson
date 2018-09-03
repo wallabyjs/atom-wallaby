@@ -13,6 +13,7 @@
   'cmd-shift-t p': 'wallaby:jump-to-error-source'
   'cmd-shift-t u': 'wallaby:toggle-uncovered-regions'
   'cmd-shift-t l': 'wallaby:show-line-tests'
+  'cmd-shift-t v': 'wallaby:show-value'
 
 '.platform-win32 atom-workspace, .platform-linux atom-workspace':
   'ctrl-shift-space': 'wallaby:show-command-palette'
@@ -29,6 +30,7 @@
   'ctrl-shift-t p': 'wallaby:jump-to-error-source'
   'ctrl-shift-t u': 'wallaby:toggle-uncovered-regions'
   'ctrl-shift-t l': 'wallaby:show-line-tests'
+  'ctrl-shift-t v': 'wallaby:show-value'
 
 'atom-workspace':
   'ctrl-1': 'wallaby:focus-panel'
