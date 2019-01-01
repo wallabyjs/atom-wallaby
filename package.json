@@ -27,7 +27,7 @@
     "lockfile": "^1.0.3",
     "phantomjs-prebuilt": "^2.1.12",
     "q": "^1.4.1",
-    "request": "^2.61.0"
+    "request": "^2.88.0"
   },
   "consumedServices": {
     "status-bar": {
