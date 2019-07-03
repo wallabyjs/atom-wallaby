@@ -1,4 +1,4 @@
 'context-menu':
   'atom-workspace atom-text-editor:not(.mini)': [ {label: 'Select as Wallaby.js Config', command: 'wallaby:select-config-from-editor'} ]
   '.tree-view .file': [ {label: 'Select as Wallaby.js Config', command: 'wallaby:select-config-from-tree'} ]
-  '.tree-view .project-root-header, .tree-view .directory': [ {label: 'Select for Wallaby.js Automatic Configuration', command: 'wallaby:select-automatic-config'} ]
+  '.tree-view .project-root-header, .tree-view .directory > div': [ {label: 'Select for Wallaby.js Automatic Configuration', command: 'wallaby:select-automatic-config'} ]
