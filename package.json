@@ -1,7 +1,7 @@
 {
   "name": "atom-wallaby",
   "main": "./lib/wallaby",
-  "version": "1.0.28",
+  "version": "1.0.29",
   "description": "Wallaby.js Atom package",
   "keywords": [
     "wallaby.js",
