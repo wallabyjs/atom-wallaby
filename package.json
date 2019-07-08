@@ -15,7 +15,7 @@
     "CoffeeScript",
     "TypeScript"
   ],
-  "repository": "https://github.com/wallabyjs/atom-wallaby",
+  "repository": "ssh://git@github.com/wallabyjs/atom-wallaby",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
