@@ -25,6 +25,7 @@
     "atom-space-pen-views": "^2.0.5",
     "fs-extra": "^0.22.1",
     "lockfile": "^1.0.3",
+    "open": "^7.2.1",
     "q": "^1.4.1",
     "request": "^2.88.0"
   },
